@@ -13,9 +13,9 @@ test('three cases across four pages: data consistency, explicit analysis and scr
  for(const f of fixtures){
   await page.getByRole('button',{name:'运营中心',exact:true}).click();await choose(page,f.id);
   await expect(page.locator('.repo-banner')).toContainText(f.version);await expect(page.locator('.sidebar-case')).toContainText(f.repo);
-  await expect(page.locator('.stat-card').nth(1)).toContainText(String(f.count));await expect(page.locator('.advisory-card')).toContainText(f.cve);
+  await expect(page.locator('.stat-card').nth(1)).toContainText(String(f.count));await page.locator('.announcement-summary').click();await expect(page.locator('.advisory-card')).toContainText(f.cve);await page.locator('nav').getByRole('button',{name:'运营中心',exact:true}).click();
   await page.screenshot({animations:'disabled',path:`screenshots/${f.id}/01-overview.png`});if(f.id==='express')await page.screenshot({animations:'disabled',path:'screenshots/01-overview.png'});
-  await page.getByRole('button',{name:'风险分析',exact:true}).click();await expect(page.locator('.react-flow__node')).toHaveCount(f.nodes);
+  await page.getByRole('button',{name:'依赖组件',exact:true}).click();await expect(page).toHaveURL(/view=components/);await expect(page.locator('.components-table tbody tr')).toHaveCount(f.count);await page.locator('.component-name').first().click();await expect(page).toHaveURL(/intelligence$/);await page.getByRole('button',{name:'聚焦根项目'}).click();await expect(page.locator('.react-flow__node')).toHaveCount(f.nodes);
   await page.locator(`.react-flow__node[data-id="${f.child}"]`).click();await expect(page.locator('.selected-package h2')).toHaveText(f.child);await expect(page.locator('.path-highlight')).toHaveCount(2);
   await expect(page.locator('.dependency-path')).toContainText(f.id);await expect(page.locator('.unmatched')).toBeVisible();
   await page.getByRole('button',{name:'聚焦根项目'}).click();await page.getByRole('button',{name:'折叠间接依赖'}).click();await expect(page.locator('.react-flow__node')).toHaveCount(f.direct+1);
