@@ -16,3 +16,11 @@
 参考链接：https://docs.github.com/en/code-security 、https://socket.dev/ 、https://www.sonatype.com/ 、https://www.wiz.io/platform/wiz-code 、https://github.com/ant-design/ant-design-pro 、https://reactflow.dev/examples/nodes/custom-node 。
 
 手动应用交互：顶部提供三个真实仓库案例选择，页面底部不设置播放条。用户按钮操作载入结果，协议阶段手动切换，短 CSS 动画只表达操作反馈。
+
+## 字体与内容精简（最终）
+
+统一使用 Windows 系统微软雅黑，英文回退 Arial，不加载外部字体。页面标题32px、卡片标题20px，常用正文/表格/操作16–18px，状态与版本14–16px。图谱节点使用24px原始字号，适配视口后保持清楚可读。
+
+移除页面副标题、统计注脚、宣传语、英文装饰标题、重复说明提示、底部说明条；保留来源、版本、业务证据、修复行动与预置/模拟状态。正常工作区不再依靠8–12px注脚表达信息。
+
+字号放大后，报告和较矮屏幕采用正常纵向滚动，不为首屏容纳全部内容而缩小正文。
