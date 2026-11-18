@@ -54,3 +54,4 @@ main{padding-bottom:30px}.red{color:#c55752;background:#fff0ee}.stat-icon.red{ba
 .dependency-flow-frame{width:100%;height:100%}.mini-nodes{padding:0;gap:5px}.mini-nodes>button{height:28px;min-height:28px;flex-shrink:0}
 .brand{min-width:220px}.notifications{width:310px;padding:5px 20px 20px}.notification-date{display:block;font-size:16px;line-height:1.7;color:#64748b;padding-top:5px}.notifications .panel-head{padding:12px 0;gap:10px}.notifications .panel-head h2{font-size:19px}
 @media(max-width:1200px){.brand{min-width:200px}}
+.unmatched{padding:13px 10px 20px;text-align:left}.unmatched h3{margin:0;font-size:18px;color:#64748b}.compute-grid>.owner-panel .share-box{margin-bottom:24px}
