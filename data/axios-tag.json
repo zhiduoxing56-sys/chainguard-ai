@@ -1,0 +1,10 @@
+{
+  "ref": "refs/tags/v1.6.7",
+  "node_id": "MDM6UmVmMjMwODg3NDA6cmVmcy90YWdzL3YxLjYuNw==",
+  "url": "https://api.github.com/repos/axios/axios/git/refs/tags/v1.6.7",
+  "object": {
+    "sha": "f187a000102c6063f137db3fffe03623294b02c0",
+    "type": "tag",
+    "url": "https://api.github.com/repos/axios/axios/git/tags/f187a000102c6063f137db3fffe03623294b02c0"
+  }
+}

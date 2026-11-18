@@ -1,0 +1,255 @@
+{
+  "sha": "a52e4d9af51205959ef924f87bcf90c605e08a1e",
+  "url": "https://api.github.com/repos/axios/axios/git/trees/a52e4d9af51205959ef924f87bcf90c605e08a1e",
+  "tree": [
+    {
+      "path": ".eslintrc.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b7e9f207ac82ac52a500dd3ac9f5f97e88a23e1",
+      "size": 249,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/2b7e9f207ac82ac52a500dd3ac9f5f97e88a23e1"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "147e542054964e576eacbc7e4f527ad7c44210b8",
+      "url": "https://api.github.com/repos/axios/axios/git/trees/147e542054964e576eacbc7e4f527ad7c44210b8"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bfebdaa4ac818a96728aeb56d43bdb3d991b06c",
+      "size": 161,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/2bfebdaa4ac818a96728aeb56d43bdb3d991b06c"
+    },
+    {
+      "path": ".npmignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49010d7e38f6459dba17d9d204ee455d6cf63892",
+      "size": 126,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/49010d7e38f6459dba17d9d204ee455d6cf63892"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fd5c9bb7fbabed02dc983fdde7a549d69d7e004",
+      "size": 50302,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/6fd5c9bb7fbabed02dc983fdde7a549d69d7e004"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56fe7378a9364db7e6b6b70d92db49b04fbc96b9",
+      "size": 5473,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/56fe7378a9364db7e6b6b70d92db49b04fbc96b9"
+    },
+    {
+      "path": "COLLABORATOR_GUIDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80405e9d0f2abc4e3ebc26016e7dfe43d6964201",
+      "size": 2941,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/80405e9d0f2abc4e3ebc26016e7dfe43d6964201"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e04a430e845d4abeed0e482fb228a75d93df03b0",
+      "size": 1300,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/e04a430e845d4abeed0e482fb228a75d93df03b0"
+    },
+    {
+      "path": "ECOSYSTEM.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6886c8f9b6dc2e2d519398da8cd524830d07156",
+      "size": 3854,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/e6886c8f9b6dc2e2d519398da8cd524830d07156"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05006a51eb888282323883df740cd90ad72d0700",
+      "size": 1084,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/05006a51eb888282323883df740cd90ad72d0700"
+    },
+    {
+      "path": "MIGRATION_GUIDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec3ae0da9b14105ca1c401de0fbeb827b29ce32b",
+      "size": 37,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/ec3ae0da9b14105ca1c401de0fbeb827b29ce32b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f012e446ca4da409fed706727493881972ecc666",
+      "size": 56765,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/f012e446ca4da409fed706727493881972ecc666"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5a2b7d2ea3ddf12edb5018c30a9ec9a4e73d92f",
+      "size": 290,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/a5a2b7d2ea3ddf12edb5018c30a9ec9a4e73d92f"
+    },
+    {
+      "path": "bin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17b16c4f6b6668c3092c7d37b02346fd4fab1017",
+      "url": "https://api.github.com/repos/axios/axios/git/trees/17b16c4f6b6668c3092c7d37b02346fd4fab1017"
+    },
+    {
+      "path": "bower.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d102424fdc303e1c21eda9be1fd680af03955df8",
+      "size": 634,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/d102424fdc303e1c21eda9be1fd680af03955df8"
+    },
+    {
+      "path": "dist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b900ac1c7e8b02d977d041624a9223fb839e5845",
+      "url": "https://api.github.com/repos/axios/axios/git/trees/b900ac1c7e8b02d977d041624a9223fb839e5845"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9fec3f8cbb28574db3926f585133dd5dd495d5b",
+      "url": "https://api.github.com/repos/axios/axios/git/trees/a9fec3f8cbb28574db3926f585133dd5dd495d5b"
+    },
+    {
+      "path": "gulpfile.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e1858197ebac517d3f8a239e4beb2555d96e7f0",
+      "size": 2559,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/2e1858197ebac517d3f8a239e4beb2555d96e7f0"
+    },
+    {
+      "path": "index.d.cts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d95e6ef693720ea8da2678cad817cb3c7607aecf",
+      "size": 17969,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/d95e6ef693720ea8da2678cad817cb3c7607aecf"
+    },
+    {
+      "path": "index.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02a8c098ac8546ed683ef81fdf7dbbb91a9c050b",
+      "size": 17906,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/02a8c098ac8546ed683ef81fdf7dbbb91a9c050b"
+    },
+    {
+      "path": "index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fba3990d8c284b9dbed3149955bf7325d24609d0",
+      "size": 681,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/fba3990d8c284b9dbed3149955bf7325d24609d0"
+    },
+    {
+      "path": "karma.conf.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e69f5e103ece757837def742df4166e3a15d29f",
+      "size": 7176,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/9e69f5e103ece757837def742df4166e3a15d29f"
+    },
+    {
+      "path": "lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b613e1e6f23e0600b0b34f724193ac093485904b",
+      "url": "https://api.github.com/repos/axios/axios/git/trees/b613e1e6f23e0600b0b34f724193ac093485904b"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ea20bab99f177ee32bd8997c295e8f952088483",
+      "size": 1628918,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/4ea20bab99f177ee32bd8997c295e8f952088483"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf185bda8119e4c3c5f6ce4c86d342d19ebfcd80",
+      "size": 7631,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/cf185bda8119e4c3c5f6ce4c86d342d19ebfcd80"
+    },
+    {
+      "path": "rollup.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31cc7bebce46bbc9e1c796c73397310c12bbae25",
+      "size": 2724,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/31cc7bebce46bbc9e1c796c73397310c12bbae25"
+    },
+    {
+      "path": "sandbox",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d09b0f2621a04b335e2cdfa08e70061d04935b4",
+      "url": "https://api.github.com/repos/axios/axios/git/trees/5d09b0f2621a04b335e2cdfa08e70061d04935b4"
+    },
+    {
+      "path": "templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4bf76da2a31eda832ba85cbcf426c371e6bb0e97",
+      "url": "https://api.github.com/repos/axios/axios/git/trees/4bf76da2a31eda832ba85cbcf426c371e6bb0e97"
+    },
+    {
+      "path": "test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ddf9087705a90218ff51b9ce8fa842cf47564a2a",
+      "url": "https://api.github.com/repos/axios/axios/git/trees/ddf9087705a90218ff51b9ce8fa842cf47564a2a"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a67190e86dcec1e9d9980dd5f0daac25a7a3247f",
+      "size": 141,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/a67190e86dcec1e9d9980dd5f0daac25a7a3247f"
+    },
+    {
+      "path": "tslint.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "685d309ab523805762f2954fda0c0abf9310155e",
+      "size": 167,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/685d309ab523805762f2954fda0c0abf9310155e"
+    },
+    {
+      "path": "webpack.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09b43d348fd46a2c6a79c03074797efdb2f1d8e8",
+      "size": 573,
+      "url": "https://api.github.com/repos/axios/axios/git/blobs/09b43d348fd46a2c6a79c03074797efdb2f1d8e8"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,24 @@
+{
+  "node_id": "TA_kwDOAWBOZNoAKGYxODdhMDAwMTAyYzYwNjNmMTM3ZGIzZmZmZTAzNjIzMjk0YjAyYzA",
+  "sha": "f187a000102c6063f137db3fffe03623294b02c0",
+  "url": "https://api.github.com/repos/axios/axios/git/tags/f187a000102c6063f137db3fffe03623294b02c0",
+  "tagger": {
+    "name": "DigitalBrainJS",
+    "email": "DigitalBrainJS@users.noreply.github.com",
+    "date": "2024-01-25T19:58:45Z"
+  },
+  "object": {
+    "sha": "a52e4d9af51205959ef924f87bcf90c605e08a1e",
+    "type": "commit",
+    "url": "https://api.github.com/repos/axios/axios/git/commits/a52e4d9af51205959ef924f87bcf90c605e08a1e"
+  },
+  "tag": "v1.6.7",
+  "message": "Release v1.6.7\n",
+  "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "sha": "77cbf2e47ea7067c937b0f21ea0aa4fb73bac115",
+  "url": "https://api.github.com/repos/koajs/koa/git/trees/77cbf2e47ea7067c937b0f21ea0aa4fb73bac115",
+  "tree": [
+    {
+      "path": ".codecov.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e31ee1814b3f4279ff188e3af5336cd8bffc046",
+      "size": 64,
+      "url": "https://api.github.com/repos/koajs/koa/git/blobs/3e31ee1814b3f4279ff188e3af5336cd8bffc046"
+    },
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7199a70f855e17a36fc91ebac87e44f4382d5d76",
+      "size": 238,
+      "url": "https://api.github.com/repos/koajs/koa/git/blobs/7199a70f855e17a36fc91ebac87e44f4382d5d76"
+    },
+    {
+      "path": ".eslintrc.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1c8ab8840d3bc302e316ac7ecffefa54093c2c7",
+      "size": 13,
+      "url": "https://api.github.com/repos/koajs/koa/git/blobs/a1c8ab8840d3bc302e316ac7ecffefa54093c2c7"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e2237c9c5c2d12e29836cb7f2ceb929aa64c15f",
+      "url": "https://api.github.com/repos/koajs/koa/git/trees/8e2237c9c5c2d12e29836cb7f2ceb929aa64c15f"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd2f2f2cbeac6659741ae14f773a612198f57dde",
+      "size": 61,
+      "url": "https://api.github.com/repos/koajs/koa/git/blobs/cd2f2f2cbeac6659741ae14f773a612198f57dde"
+    },
+    {
+      "path": ".mailmap",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f2f86feb54950846ae4796d5b950366ee5d5031",
+      "size": 51,
+      "url": "https://api.github.com/repos/koajs/koa/git/blobs/1f2f86feb54950846ae4796d5b950366ee5d5031"
+    },
+    {
+      "path": "AUTHORS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2d0488184592b0e2e0de0fdddad3b2883a81593",
+      "size": 6451,
+      "url": "https://api.github.com/repos/koajs/koa/git/blobs/d2d0488184592b0e2e0de0fdddad3b2883a81593"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a8e8c0719edf782cd50301b7800a44fdf716268",
+      "size": 3228,
+      "url": "https://api.github.com/repos/koajs/koa/git/blobs/4a8e8c0719edf782cd50301b7800a44fdf716268"
+    },
+    {
+      "path": "History.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a5cf3355ea41e7076c36c2446dfc278f84904bd",
+      "size": 35275,
+      "url": "https://api.github.com/repos/koajs/koa/git/blobs/7a5cf3355ea41e7076c36c2446dfc278f84904bd"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a70628748c14df221a11a29cde0eabe51ba55f7e",
+      "size": 1079,
+      "url": "https://api.github.com/repos/koajs/koa/git/blobs/a70628748c14df221a11a29cde0eabe51ba55f7e"
+    },
+    {
+      "path": "Readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29a1e92cdebb069f9f819ebed32fcf9c4371868e",
+      "size": 17277,
+      "url": "https://api.github.com/repos/koajs/koa/git/blobs/29a1e92cdebb069f9f819ebed32fcf9c4371868e"
+    },
+    {
+      "path": "__tests__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54cfc31b47a5be0417da56119f523cc9f04bc2cd",
+      "url": "https://api.github.com/repos/koajs/koa/git/trees/54cfc31b47a5be0417da56119f523cc9f04bc2cd"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6149fcfc1c98dc9b8c992ccdd5e77a5fe202a3d7",
+      "url": "https://api.github.com/repos/koajs/koa/git/trees/6149fcfc1c98dc9b8c992ccdd5e77a5fe202a3d7"
+    },
+    {
+      "path": "lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae79cf2388e82ed6353c0486b5c8015f5fdcc70a",
+      "url": "https://api.github.com/repos/koajs/koa/git/trees/ae79cf2388e82ed6353c0486b5c8015f5fdcc70a"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22ca2c42ae17da668bf4c6faffc85ce9abe9f204",
+      "size": 417178,
+      "url": "https://api.github.com/repos/koajs/koa/git/blobs/22ca2c42ae17da668bf4c6faffc85ce9abe9f204"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cde7d2566cb2e117da1df6b253cf6cecd856a29",
+      "size": 2312,
+      "url": "https://api.github.com/repos/koajs/koa/git/blobs/5cde7d2566cb2e117da1df6b253cf6cecd856a29"
+    },
+    {
+      "path": "test-helpers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1574c1cca882702c42aa609e31d1c030260b8548",
+      "url": "https://api.github.com/repos/koajs/koa/git/trees/1574c1cca882702c42aa609e31d1c030260b8548"
+    }
+  ],
+  "truncated": false
+}
