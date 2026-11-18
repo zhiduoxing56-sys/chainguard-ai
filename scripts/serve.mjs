@@ -15,4 +15,4 @@ const server=http.createServer(async(req,res)=>{
  }catch{res.writeHead(500);res.end('Build missing. Run npm install and npm run build first.')}
 });
 server.on('error',e=>{console.error(e.code==='EADDRINUSE'?`Port ${port} is in use. Set PORT to another port.`:e.message);process.exitCode=1});
-server.listen(port,'127.0.0.1',()=>console.log(`ChainGuard AI: http://127.0.0.1:${port}/overview\nLocal only. Press Ctrl+C to stop.`));
+server.listen(port,'127.0.0.1',()=>console.log(`ChainGuard: http://127.0.0.1:${port}/overview\nLocal only. Press Ctrl+C to stop.`));

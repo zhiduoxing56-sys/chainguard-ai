@@ -47,7 +47,7 @@ test('free navigation, no autoplay hotkeys or timers, search, case state isolati
  await page.getByLabel('全局搜索').fill('CVE-2025-25200');await page.locator('.search-results button').first().click();await expect(page).toHaveURL(/intelligence/);await expect(page.locator('.sidebar-case')).toContainText('koajs/koa');await expect(page.locator('.advisory-card')).toContainText('CVE-2025-25200');
  await page.getByLabel('全局搜索').fill('cookies');await page.locator('.search-results button').last().click();await expect(page.locator('.selected-package h2')).toHaveText('cookies');
  await page.getByRole('button',{name:'帮助',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('四个页面间自由操作');await page.getByRole('button',{name:'了解，继续使用'}).click();
- await page.getByRole('button',{name:'通知',exact:true}).click();await expect(page.locator('.notifications')).toContainText('23 项');await page.getByRole('button',{name:'关闭通知'}).click();
+ await page.getByRole('button',{name:'通知',exact:true}).click();await expect(page.locator('.notifications time')).toHaveText('2026-11-18');await page.getByRole('button',{name:'关闭通知'}).click();
  await page.reload();await expect(page.locator('.sidebar-case')).toContainText('koajs/koa');
 });
 

@@ -26,3 +26,7 @@
 ## 导航精简验收
 
 已按用户9项页面批注删除/改名，新增1092×871头像菜单截图 screenshots/05-avatar-navigation.png 与折叠工作台截图 screenshots/06-workspace-collapsed.png。重新采集三个案例四页截图；移除面包屑后内容区从页面标题开始。
+
+## 品牌和通知精简
+
+品牌及浏览器标题改为ChainGuard；首页GNN卡片不再显示“本地预置结果”徽章。通知保留标题、关闭按钮和2026-11-18日期，删除其余状态小字。1092×871截图见screenshots/07-notification.png与08-overview-compact.png。
